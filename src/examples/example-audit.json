@@ -1,0 +1,74 @@
+{
+  "audit_info": {
+    "system": "Ubuntu 22.04 LTS",
+    "benchmark_version": "CIS Ubuntu Linux 22.04 LTS Benchmark",
+    "audit_date": "2024-10-14",
+    "auditor": "TrueVision"
+  },
+  "compliance_status": {
+    "password_policy": {
+      "minimum_length": {
+        "value": 12,
+        "compliant": true,
+        "recommendation": "Minimum password length is set to 12 characters."
+      },
+      "complexity_requirements": {
+        "enabled": true,
+        "compliant": true,
+        "recommendation": "Password complexity requirements are enforced."
+      },
+      "password_expiration": {
+        "max_days": 90,
+        "compliant": true,
+        "recommendation": "Password must be changed every 90 days."
+      }
+    },
+    "ssh_settings": {
+      "protocol_version": {
+        "value": 2,
+        "compliant": true,
+        "recommendation": "SSH protocol version is set to 2."
+      },
+      "root_login": {
+        "enabled": false,
+        "compliant": true,
+        "recommendation": "Root login via SSH is disabled."
+      }
+    },
+    "firewall": {
+      "status": {
+        "enabled": true,
+        "compliant": true,
+        "recommendation": "UFW (Uncomplicated Firewall) is enabled."
+      }
+    },
+    "audit_logging": {
+      "auditd_enabled": {
+        "enabled": true,
+        "compliant": true,
+        "recommendation": "Audit logging is enabled (auditd)."
+      }
+    },
+    "system_updates": {
+      "automatic_updates": {
+        "enabled": true,
+        "compliant": true,
+        "recommendation": "Automatic updates are enabled."
+      }
+    },
+    "antivirus": {
+      "status": {
+        "installed": true,
+        "active": true,
+        "compliant": true,
+        "recommendation": "Antivirus is installed and active."
+      }
+    }
+  },
+  "summary": {
+    "total_checks": 8,
+    "passed_checks": 8,
+    "failed_checks": 0,
+    "overall_compliance": "100%"
+  }
+}
