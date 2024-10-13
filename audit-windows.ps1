@@ -1,6 +1,6 @@
 # audit-windows.ps1
 # AEGIS: CIS Benchmark Audit Script for Windows Systems
-# Author: Mohammad Nawed Arshad
+# Author: TrueVision
 # Last Updated: 2024-10-12
 
 Write-Host "==================================================" -ForegroundColor Yellow
